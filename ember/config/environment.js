@@ -2,6 +2,10 @@
 
 module.exports = function(environment) {
   var ENV = {
+    contentSecurityPolicy: {
+      'style-src': "'self' 'unsafe-inline'",
+      'img-src': "'self' 'unsafe-inline' http://www.gravatar.com"
+    },
     modulePrefix: 'people',
     environment: environment,
     baseURL: '/',
