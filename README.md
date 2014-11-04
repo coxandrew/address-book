@@ -4,22 +4,19 @@ Clone the repo
 
     $ git clone git@github.com:coxandrew/address-book.git
 
-Install dependencies
-
-    $ brew install node
-    $ npm install -g bower
-
-Install npm and bower dependencies
-
-    $ cd ember
-    $ npm install
-    $ bower install
-
-Set up Rails, database:
+Set up Rails:
 
     $ cd ../rails
     $ bundle
     $ rake db:create db:migrate db:seed
+    $ rails s
+
+Set up Ember
+
+    $ cd ../ember
+    $ npm install -g bower
+    $ npm install
+    $ bower install
 
 Start the test Ember server
 
