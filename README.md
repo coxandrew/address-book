@@ -34,8 +34,7 @@ Go to:
     * Relationship w/ icon
     * Lists number of shared albums ("Sharing 2 albums with you" or "No shared albums")
 * You can reorder your contacts manually by drag 'n drop
-    * On drop, update the position on the server
-* Button to "Invite to Friends & Family" (styled, but not functional)
+    * On drop, update the position on the server: PUT /users/:id { position: 1 }
 
 ## Resources
 
