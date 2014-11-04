@@ -7,6 +7,13 @@ class UsersController < ApplicationController
     else
       @users = User.all
     end
+    @users = @users.order(:position)
     respond_with @users
+  end
+
+  def update
+    @user = User.find(params[:id])
+    @user.insert_at(params[:position])
+    respond_with @user
   end
 end

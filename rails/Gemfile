@@ -24,6 +24,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'acts_as_list'
+
 gem 'active_model_serializers'
 
 group :development, :test  do
