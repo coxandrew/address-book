@@ -5,3 +5,59 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+User.create({
+  name: 'Andrew Cox',
+  email: 'acox@forever.com',
+  group: 'friends',
+  relationship: 'Friend',
+  num_albums: 1
+})
+
+User.create({
+  name: 'Dave York',
+  email: 'dyork@forever.com',
+  group: 'friends',
+  relationship: 'Friend',
+  num_albums: 0
+})
+
+User.create({
+  name: 'Bob Berger',
+  email: 'rberger@forever.com',
+  group: 'friends',
+  relationship: 'Friend',
+  num_albums: 281
+})
+
+User.create({
+  name: 'Adam Frey',
+  email: 'afrey@forever.com',
+  group: 'friends',
+  relationship: 'Friend',
+  num_albums: 1
+})
+
+User.create({
+  name: 'Anne Cox',
+  email: 'anne.cox@gmail.com',
+  group: 'family',
+  relationship: 'Sister',
+  num_albums: 10
+})
+
+User.create({
+  name: 'Valerie Cox',
+  email: 'valerie.cox@gmail.com',
+  group: 'family',
+  relationship: 'Mother',
+  num_albums: 5
+})
+
+User.create({
+  name: 'Beth Thomas',
+  email: 'beth.thomas@gmail.com',
+  group: 'family',
+  relationship: 'Wife',
+  num_albums: 22
+})
